@@ -1,0 +1,109 @@
+
+        body {
+            background-image:url(/SRC/fondo.jpeg);
+            margin: auto;
+        }
+
+        a,p,h1,h2, li{
+            color: white;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 50px;
+            font-family: 'Times New Roman';
+        }
+
+        aside h2 {
+            
+            font-size: 25px;
+            vertical-align: sub;
+        }
+
+        img {
+            border-radius: 50%;
+            width: 350px;
+            height: 350px;
+        }
+        section h2 {
+            text-align: justify;
+            font-family: 'Times New Roman';
+            font-size: 35px;
+        }
+
+        p,li {
+            text-align: justify;
+            font-family: 'Times New Roman';
+            font-size: 20px;
+        }
+
+        footer {
+            clear: both;
+            background-color: black;
+        }
+
+        footer p {
+            text-align: center;
+        }
+
+        .nave {
+            list-style: none;
+            padding: 0px;
+            background-color: rgb(230, 124, 4);
+            width: 90%;
+            max-width: 1000px;
+            margin: auto;
+            align-items: center;
+
+        }
+
+        .nave li {
+            display: inline-block;
+            align-items: flex-start;
+        }
+
+        .nave li a {
+            text-decoration: none;
+            color: white;
+            padding: 20px;
+            display: block;
+            font-family: 'Times New Roman';
+        }
+
+        .nave li a:hover {
+            background-color: orangered;
+        }
+
+         .Izq{
+            width: 35%;
+            float: left;
+        }
+
+         .der{
+            width: 65%;
+            float: right;
+        }
+        aside h2 {
+            text-align: center;
+        }
+        aside {
+            width: 35%;
+            float: right;
+        }
+
+        section {
+            width: 65%;
+            float: left;
+        }
+
+        aside h2, li{
+            text-align: center;
+        }
+
+        li{
+            text-decoration: none;
+        }
+        .icon{
+            width: 50px;
+            height: 50px;
+        }
