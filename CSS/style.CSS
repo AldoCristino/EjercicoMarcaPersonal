@@ -54,12 +54,10 @@
             max-width: 1000px;
             margin: auto;
             align-items: center;
-
         }
 
         .nave li {
             display: inline-block;
-            align-items: flex-start;
         }
 
         .nave li a {
@@ -74,21 +72,22 @@
             background-color: orangered;
         }
 
-         .Izq{
+        .Izq{
             width: 35%;
             float: left;
         }
 
-         .der{
+        .der{
             width: 65%;
+            float: right;
+        }
+       
+        aside {
+            width: 35%;
             float: right;
         }
         aside h2 {
             text-align: center;
-        }
-        aside {
-            width: 35%;
-            float: right;
         }
 
         section {
